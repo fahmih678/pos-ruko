@@ -7,11 +7,15 @@ import ClientShell from '@/components/ClientShell';
 export const metadata: Metadata = {
   title: 'POS Ruko - Aplikasi Kasir Toko',
   description: 'Aplikasi Kasir Mobile-First untuk Toko dan Ruko',
+  applicationName: 'POS Ruko',
   manifest: '/manifest.json',
   appleWebApp: {
     capable: true,
     statusBarStyle: 'default',
     title: 'POS Ruko',
+  },
+  other: {
+    'mobile-web-app-capable': 'yes',
   },
   icons: {
     icon: [
